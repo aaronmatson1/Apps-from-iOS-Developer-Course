@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C307202A1EE1D85300EA84F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30720291EE1D85300EA84F5 /* AppDelegate.swift */; };
+		C307202C1EE1D85300EA84F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C307202B1EE1D85300EA84F5 /* ViewController.swift */; };
+		C307202F1EE1D85300EA84F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C307202D1EE1D85300EA84F5 /* Main.storyboard */; };
+		C30720321EE1D85300EA84F5 /* Covfefe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C30720301EE1D85300EA84F5 /* Covfefe.xcdatamodeld */; };
+		C30720341EE1D85400EA84F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C30720331EE1D85400EA84F5 /* Assets.xcassets */; };
+		C30720371EE1D85400EA84F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C30720351EE1D85400EA84F5 /* LaunchScreen.storyboard */; };
+		C307204B1EE1FAB600EA84F5 /* covfefe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C307203E1EE1FAB500EA84F5 /* covfefe.jpg */; settings = {ASSET_TAGS = (); }; };
+		C307204C1EE1FAB600EA84F5 /* Trump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C307203F1EE1FAB600EA84F5 /* Trump.jpg */; settings = {ASSET_TAGS = (); }; };
+		C307204D1EE1FAB600EA84F5 /* trumpdebate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30720401EE1FAB600EA84F5 /* trumpdebate.jpg */; settings = {ASSET_TAGS = (); }; };
+		C307204E1EE1FAB600EA84F5 /* trumphands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30720411EE1FAB600EA84F5 /* trumphands.jpg */; settings = {ASSET_TAGS = (); }; };
+		C307204F1EE1FAB600EA84F5 /* trumpmaga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30720421EE1FAB600EA84F5 /* trumpmaga.jpg */; settings = {ASSET_TAGS = (); }; };
+		C30720511EE1FAB600EA84F5 /* trumppoint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30720441EE1FAB600EA84F5 /* trumppoint.jpg */; settings = {ASSET_TAGS = (); }; };
+		C30720521EE1FAB600EA84F5 /* trumpsmile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30720451EE1FAB600EA84F5 /* trumpsmile.jpg */; settings = {ASSET_TAGS = (); }; };
+		C30720531EE1FAB600EA84F5 /* trumpspeaks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30720461EE1FAB600EA84F5 /* trumpspeaks.jpg */; settings = {ASSET_TAGS = (); }; };
+		C30720561EE1FAB600EA84F5 /* trumpwaves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C30720491EE1FAB600EA84F5 /* trumpwaves.jpg */; settings = {ASSET_TAGS = (); }; };
+		C30720571EE1FAB600EA84F5 /* yourefired.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C307204A1EE1FAB600EA84F5 /* yourefired.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C30720261EE1D85300EA84F5 /* Covfefe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covfefe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30720291EE1D85300EA84F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C307202B1EE1D85300EA84F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C307202E1EE1D85300EA84F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C30720311EE1D85300EA84F5 /* Covfefe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Covfefe.xcdatamodel; sourceTree = "<group>"; };
+		C30720331EE1D85400EA84F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C30720361EE1D85400EA84F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C30720381EE1D85400EA84F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C307203E1EE1FAB500EA84F5 /* covfefe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = covfefe.jpg; path = images/covfefe.jpg; sourceTree = "<group>"; };
+		C307203F1EE1FAB600EA84F5 /* Trump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Trump.jpg; path = images/Trump.jpg; sourceTree = "<group>"; };
+		C30720401EE1FAB600EA84F5 /* trumpdebate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trumpdebate.jpg; path = images/trumpdebate.jpg; sourceTree = "<group>"; };
+		C30720411EE1FAB600EA84F5 /* trumphands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trumphands.jpg; path = images/trumphands.jpg; sourceTree = "<group>"; };
+		C30720421EE1FAB600EA84F5 /* trumpmaga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trumpmaga.jpg; path = images/trumpmaga.jpg; sourceTree = "<group>"; };
+		C30720441EE1FAB600EA84F5 /* trumppoint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trumppoint.jpg; path = images/trumppoint.jpg; sourceTree = "<group>"; };
+		C30720451EE1FAB600EA84F5 /* trumpsmile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trumpsmile.jpg; path = images/trumpsmile.jpg; sourceTree = "<group>"; };
+		C30720461EE1FAB600EA84F5 /* trumpspeaks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trumpspeaks.jpg; path = images/trumpspeaks.jpg; sourceTree = "<group>"; };
+		C30720491EE1FAB600EA84F5 /* trumpwaves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = trumpwaves.jpg; path = images/trumpwaves.jpg; sourceTree = "<group>"; };
+		C307204A1EE1FAB600EA84F5 /* yourefired.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yourefired.jpg; path = images/yourefired.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C30720231EE1D85300EA84F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C307201D1EE1D85200EA84F5 = {
+			isa = PBXGroup;
+			children = (
+				C30720281EE1D85300EA84F5 /* Covfefe */,
+				C30720271EE1D85300EA84F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C30720271EE1D85300EA84F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C30720261EE1D85300EA84F5 /* Covfefe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C30720281EE1D85300EA84F5 /* Covfefe */ = {
+			isa = PBXGroup;
+			children = (
+				C30720291EE1D85300EA84F5 /* AppDelegate.swift */,
+				C307202B1EE1D85300EA84F5 /* ViewController.swift */,
+				C307202D1EE1D85300EA84F5 /* Main.storyboard */,
+				C30720331EE1D85400EA84F5 /* Assets.xcassets */,
+				C30720351EE1D85400EA84F5 /* LaunchScreen.storyboard */,
+				C30720381EE1D85400EA84F5 /* Info.plist */,
+				C30720301EE1D85300EA84F5 /* Covfefe.xcdatamodeld */,
+				C307203E1EE1FAB500EA84F5 /* covfefe.jpg */,
+				C307203F1EE1FAB600EA84F5 /* Trump.jpg */,
+				C30720401EE1FAB600EA84F5 /* trumpdebate.jpg */,
+				C30720411EE1FAB600EA84F5 /* trumphands.jpg */,
+				C30720421EE1FAB600EA84F5 /* trumpmaga.jpg */,
+				C30720441EE1FAB600EA84F5 /* trumppoint.jpg */,
+				C30720451EE1FAB600EA84F5 /* trumpsmile.jpg */,
+				C30720461EE1FAB600EA84F5 /* trumpspeaks.jpg */,
+				C30720491EE1FAB600EA84F5 /* trumpwaves.jpg */,
+				C307204A1EE1FAB600EA84F5 /* yourefired.jpg */,
+			);
+			path = Covfefe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C30720251EE1D85300EA84F5 /* Covfefe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C307203B1EE1D85400EA84F5 /* Build configuration list for PBXNativeTarget "Covfefe" */;
+			buildPhases = (
+				C30720221EE1D85300EA84F5 /* Sources */,
+				C30720231EE1D85300EA84F5 /* Frameworks */,
+				C30720241EE1D85300EA84F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Covfefe;
+			productName = Covfefe;
+			productReference = C30720261EE1D85300EA84F5 /* Covfefe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C307201E1EE1D85200EA84F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Matson;
+				TargetAttributes = {
+					C30720251EE1D85300EA84F5 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C30720211EE1D85200EA84F5 /* Build configuration list for PBXProject "Covfefe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C307201D1EE1D85200EA84F5;
+			productRefGroup = C30720271EE1D85300EA84F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C30720251EE1D85300EA84F5 /* Covfefe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C30720241EE1D85300EA84F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C307204B1EE1FAB600EA84F5 /* covfefe.jpg in Resources */,
+				C30720371EE1D85400EA84F5 /* LaunchScreen.storyboard in Resources */,
+				C307204F1EE1FAB600EA84F5 /* trumpmaga.jpg in Resources */,
+				C30720341EE1D85400EA84F5 /* Assets.xcassets in Resources */,
+				C30720521EE1FAB600EA84F5 /* trumpsmile.jpg in Resources */,
+				C30720511EE1FAB600EA84F5 /* trumppoint.jpg in Resources */,
+				C307204D1EE1FAB600EA84F5 /* trumpdebate.jpg in Resources */,
+				C307202F1EE1D85300EA84F5 /* Main.storyboard in Resources */,
+				C30720531EE1FAB600EA84F5 /* trumpspeaks.jpg in Resources */,
+				C30720571EE1FAB600EA84F5 /* yourefired.jpg in Resources */,
+				C307204E1EE1FAB600EA84F5 /* trumphands.jpg in Resources */,
+				C30720561EE1FAB600EA84F5 /* trumpwaves.jpg in Resources */,
+				C307204C1EE1FAB600EA84F5 /* Trump.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C30720221EE1D85300EA84F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C307202C1EE1D85300EA84F5 /* ViewController.swift in Sources */,
+				C307202A1EE1D85300EA84F5 /* AppDelegate.swift in Sources */,
+				C30720321EE1D85300EA84F5 /* Covfefe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C307202D1EE1D85300EA84F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C307202E1EE1D85300EA84F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C30720351EE1D85400EA84F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C30720361EE1D85400EA84F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C30720391EE1D85400EA84F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C307203A1EE1D85400EA84F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C307203C1EE1D85400EA84F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Covfefe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amatson.Covfefe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C307203D1EE1D85400EA84F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Covfefe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amatson.Covfefe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C30720211EE1D85200EA84F5 /* Build configuration list for PBXProject "Covfefe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C30720391EE1D85400EA84F5 /* Debug */,
+				C307203A1EE1D85400EA84F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C307203B1EE1D85400EA84F5 /* Build configuration list for PBXNativeTarget "Covfefe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C307203C1EE1D85400EA84F5 /* Debug */,
+				C307203D1EE1D85400EA84F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C30720301EE1D85300EA84F5 /* Covfefe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C30720311EE1D85300EA84F5 /* Covfefe.xcdatamodel */,
+			);
+			currentVersion = C30720311EE1D85300EA84F5 /* Covfefe.xcdatamodel */;
+			path = Covfefe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C307201E1EE1D85200EA84F5 /* Project object */;
+}

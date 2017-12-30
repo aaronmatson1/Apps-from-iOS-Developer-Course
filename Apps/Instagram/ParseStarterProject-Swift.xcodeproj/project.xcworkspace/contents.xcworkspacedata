@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:/Users/nlutsenko/src/parse/ios-client/StarterProjects/ParseSwiftStarterProject/ParseStarterProject-Swift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AppDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "group:mario avatar.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:PostImageViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Bolts.framework">
+   </FileRef>
+   <FileRef
+      location = "group:Parse.framework">
+   </FileRef>
+   <FileRef
+      location = "group:ParseStarterProject">
+   </FileRef>
+   <FileRef
+      location = "group:Resources">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:ViewController.swift">
+   </FileRef>
+</Workspace>

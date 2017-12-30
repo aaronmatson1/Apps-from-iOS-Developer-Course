@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="shake_with_sounds" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="darth vader.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JED-rO-Gfh">
+                                <rect key="frame" x="0.0" y="-8" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shake Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgQ-jl-ONZ">
+                                <rect key="frame" x="186" y="517" width="228" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="0.80275410353535359" green="0.084652420197254746" blue="0.10945634828892141" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JED-rO-Gfh" secondAttribute="bottom" id="2Ob-N0-M2n"/>
+                            <constraint firstItem="JED-rO-Gfh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="R7l-NP-DbX"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JED-rO-Gfh" secondAttribute="trailing" constant="-20" id="b7b-8a-YTM"/>
+                            <constraint firstItem="JED-rO-Gfh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gma-jY-rm2"/>
+                            <constraint firstItem="QgQ-jl-ONZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hcX-Wp-ewq"/>
+                            <constraint firstItem="JED-rO-Gfh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="poP-3T-fci"/>
+                            <constraint firstItem="QgQ-jl-ONZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="q0n-Mf-vn6"/>
+                            <constraint firstItem="JED-rO-Gfh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="sOZ-Kp-a5Z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QgQ-jl-ONZ" secondAttribute="bottom" constant="20" id="spx-E0-CoO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="darth vader.jpg" width="600" height="316"/>
+    </resources>
+</document>
